@@ -1,5 +1,5 @@
 
-Step-01: Introduction
+## Step-01: Introduction ##  
 Install Terraform CLI & AWS CLI according to your Laptop/Desktop OS(MAC/Windows/Linux).  
 
 [Install Terraform CLI](https://developer.hashicorp.com/terraform/downloads)
@@ -8,7 +8,7 @@ Install Terraform CLI & AWS CLI according to your Laptop/Desktop OS(MAC/Windows/
 Install VS Code Editor (Optional)  
 Install HashiCorp Terraform plugin for VS Code (Optional)  
 
-Step-02: Prepare AWS account  
+## Step-02: Prepare AWS account ##
 
 * Create AWS account and create "Your-Admin-User"   
 
@@ -17,17 +17,17 @@ Step-02: Prepare AWS account
 
 * Configure AWS credentials using SSH Terminal on your local desktop  
 
-# Configure AWS Credentials in command line
+#### Configure AWS Credentials in command line ####
 $ aws configure
 AWS Access Key ID [None]: AKIXXXXXXXXXXXXMZ7K
 AWS Secret Access Key [None]: WL9XXXXXGm7w9tXXXXXX+XXX/K5F3HWtdFH/
 Default region name [None]: us-east-1
 Default output format [None]: json
 
-# Verify if we are able list S3 buckets
+#### Verify if we are able list S3 buckets ####
 aws s3 ls
 
-# Verify the AWS Credentials Profile
+#### Verify the AWS Credentials Profile ####
 
 cat $HOME/.aws/credentials
 
