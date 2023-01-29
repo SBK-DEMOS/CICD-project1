@@ -32,7 +32,7 @@ aws s3 ls
 cat $HOME/.aws/credentials  
 [default]  
 aws_access_key_id = BxxxxxxxxxxxxxxxxK  
-aws_secret_access_key = hxyvfsfsf767jjjjklxxxxxyzzzzz  
+aws_secret_access_key = hxxxxxxx43j8jjjklxxxxxyzzzzz  
 
   Note: By default, these files are located at $HOME/.aws/config and $HOME/.aws/credentials on Linux and macOS, and "%USERPROFILE%\.aws\config" and "%USERPROFILE%\.aws\credentials" on Windows.  
      If no named profile is specified, the default profile is used. Use the profile parameter or AWS_PROFILE environment variable to specify a named profile.  
