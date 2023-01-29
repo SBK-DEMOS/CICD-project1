@@ -7,6 +7,7 @@ Note: You should have AWS account. I used AWS free tier and default vpc for simp
 
 I have divided the workshop into below sections. Refer to the individual sections' readme files for more info. Happy Learning!!!  
 
-[1. Provision & Setup Jenkins server - using Terraform](https://github.com/SBK-DEMOS/CICD-project1/tree/main/1.%20Provision%20%26%20Setup%20Jenkins%20server)
+[1. Provision & Setup Jenkins server - using Terraform](https://github.com/SBK-DEMOS/CICD-project1/tree/main/1.%20Provision%20%26%20Setup%20Jenkins%20server)  
+[2. Set up EKS cluster in AWS](https://github.com/SBK-DEMOS/CICD-project1/tree/main/2.%20Set%20up%20EKS%20cluster%20in%20AWS)
 
 
