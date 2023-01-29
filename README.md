@@ -7,6 +7,6 @@ Note: You should have AWS free tier account. I used AWS free tier and default vp
 
 I have divided the workshop into below sections. 
 
-[1. Provision & Setup Jenkins server]{https://github.com/SBK-DEMOS/CICD-project1/tree/main/1.%20Provision%20%26%20Setup%20Jenkins%20server}
+[1. Provision & Setup Jenkins server](https://github.com/SBK-DEMOS/CICD-project1/tree/main/1.%20Provision%20%26%20Setup%20Jenkins%20server)
 
 
