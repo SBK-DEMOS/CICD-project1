@@ -82,8 +82,15 @@ We are going to build and deploy Java APPs. So, need Maven for build purpose.
 
 * Assign shell to Jenkins user  
 
+```  
+	[root@Jenkins-server opt]# grep -i jenkins /etc/passwd  
+	jenkins:x:995:993:Jenkins Automation Server:/var/lib/jenkins:/bin/false  
+```  
+
+
       vi /etc/passwd   
-	    change shell from /bin/false to /bin/bash   
+	    change shell from /bin/false to /bin/bash  
+
   
   Example o/p:  
   ```
