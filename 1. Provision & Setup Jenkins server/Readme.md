@@ -49,13 +49,12 @@ Install HashiCorp Terraform plugin for VS Code (Optional)
 We are going to build and deploy Java APPs. So, need Maven for build purpose.  
 [Get the required Maven S/W](https://dlcdn.apache.org/maven/)  
       
-       sudo cd /opt/  
-       sudo wget https://dlcdn.apache.org/maven/maven-3/3.8.7/binaries/apache-maven-3.8.7-bin.tar.gz  
-       sudo tar -xvzf apache-maven-3.8.7-bin.tar.gz 
+       sudo su -
+       cd /opt/  
+       wget https://dlcdn.apache.org/maven/maven-3/3.8.7/binaries/apache-maven-3.8.7-bin.tar.gz  
+       tar -xvzf apache-maven-3.8.7-bin.tar.gz 
        
-Check if maven works properly:  
-
-     mvn version    
+ 
   
 * Set/Export environment  
   
@@ -72,6 +71,10 @@ Check if maven works properly:
 
      source ~/.bash_profile  
 
+* Check if maven works properly:  
+
+     mvn version
+     
 * Restart Jenkins  
 
       systemctl status jenkins  
