@@ -122,8 +122,8 @@ We are going to build and deploy Java APPs. So, need Maven for build purpose.
 
 * Install Maven & Docker plugins in Jenkins  
 
-  Access Jenkins UI(http://<Public-IP>:8080).    
-  If its first time you will be asked to get initialAdminPassword from Linux server from the below location  
+  Access Jenkins UI(http://Public-IP:8080).    
+  If its first time you will be asked to get initialAdminPassword from Linux(Jenkins) server from the below location  
 ```  
       cat /var/lib/jenkins/secrets/initialAdminPassword  
 ```  
