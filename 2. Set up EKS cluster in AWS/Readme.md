@@ -64,12 +64,23 @@ Use only minimal required policies In Production.
     --zones <AZ-1>,<AZ-2>  
 
 example:
-    eksctl create cluster --name SBK-K8Scluster1 \  
-    --region eu-central-1 \  
-    --node-type t2.medium \  
+	eksctl create cluster --name SBK-K8Scluster1 --region eu-central-1 --node-type t2.medium   
+ 
 ```  
+
 Note: Create EKS cluster in the same region of EKS management host. It may take approx 15mins time to create K8S cluster.  
-      Take kubeconfig file(shown at end of K8S cluster creation) as it will be used to access the K8S cluster. 
+      Take kubeconfig file(shown at end of K8S cluster creation) as it will be used to access the K8S cluster.  
+      
+      * Here are last few lines of K8S cluster creation:  
+```  
+	2023-01-30 17:47:34 [ℹ]  nodegroup "ng-fe6c6aae" has 2 node(s)  
+	2023-01-30 17:47:34 [ℹ]  node "ip-192-168-7-110.eu-central-1.compute.internal" is ready  
+	2023-01-30 17:47:34 [ℹ]  node "ip-192-168-75-141.eu-central-1.compute.internal" is ready  
+	2023-01-30 17:47:35 [ℹ]  kubectl command should work with "/root/.kube/config", try 'kubectl get nodes'  
+	2023-01-30 17:47:35 [✔]  EKS cluster "SBK-K8Scluster1" in "eu-central-1" region is ready  
+``` 
+
+```  
 
 7. To delete the EKS clsuter  
 ```  
