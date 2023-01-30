@@ -46,7 +46,7 @@ VPC
 CloudFormation  
 
    Go to AWS Dashboard ==> Services ==> IAM ==> Roles ==> Create New Role ==> Select EC2, select policies(IAMFullAccess, VPCfullaccess, EC2fullaccess, Cloudformation, AdministratorAccess) ==> Give a Name to Role (ex: EksaccesstoEC2)  ==> Create Role.  
-Select EC2(EKS management host) Instance, Actions ==> Security, Modify IAM role, select role (EksaccesstoEC2) and click Save.  
+Select EC2(EKS management host) Instance, Actions ==> Security, Modify IAM role, select role (EksaccesstoEC2) and click "Update IAM Role".   
 Similarly, Attach the above role to Jenkins EC2 server as well(If Jenkins is installed in a seperate server).  
 
 
