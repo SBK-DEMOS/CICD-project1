@@ -122,12 +122,12 @@ We are going to build and deploy Java APPs. So, need Maven for build purpose.
 
 * Install Maven & Docker plugins in Jenkins  
 
-  Access Jenkins UI and make sure Admin user is configured and necessary plugins are installed.  
+  Access Jenkins UI(http://<Public-IP>:8080).    
   If its first time you will be asked to get initialAdminPassword from Linux server from the below location  
 ```  
       cat /var/lib/jenkins/secrets/initialAdminPassword  
 ```  
-
+  Click "Install Suggested Plugins" and create Admin user(Ex:Admin123)is created and necessary plugins are installed.  
   At Genkins UI, Manage Jenkins ==> Manage Plugins ==> Check if aleady installed  
   If not installed, Go to Available Plugins ==> select "Docker Pipeline" install.(Do the same for "Maven Integration")  
      
