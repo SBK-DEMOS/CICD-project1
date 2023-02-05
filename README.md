@@ -11,6 +11,7 @@ I have divided the workshop into below sections. Refer to the individual section
 [2. Set up EKS cluster in AWS](https://github.com/SBK-DEMOS/CICD-project1/tree/main/2.%20Set%20up%20EKS%20cluster%20in%20AWS)  
 [3. Install and Configure Helm in Jenkins server](https://github.com/SBK-DEMOS/CICD-project1/tree/main/3.%20Install%20and%20Configure%20Helm%20in%20Jenkins%20server)  
 [4. Setup Continuous Integration Job in Jenkins](https://github.com/SBK-DEMOS/CICD-project1/tree/main/4.%20Setup%20Continuous%20Integration%20Job%20in%20Jenkins)  
+[5. Deploy App on EKS Cluster](https://github.com/SBK-DEMOS/CICD-project1/tree/main/5.%20Deploy%20App%20on%20EKS%20Cluster)  
 
 
 
