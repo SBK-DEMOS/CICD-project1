@@ -9,6 +9,7 @@ Required files(helm and Jenkins) are saved at Git Repo [petclinic](https://githu
 * After successful Job run, APP at Kubernetes cluster to be running.  
 Note: You can check helm list or kubectl get pods 
 
+Password : check-pwd123
 
 
 
