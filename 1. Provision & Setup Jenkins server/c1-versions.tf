@@ -13,3 +13,5 @@ provider "aws" {
   profile = "default"
 }
 
+# Password: pwdwelcome123
+# secret:Admin@123
